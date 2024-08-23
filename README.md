@@ -28,8 +28,6 @@ Below is a simple flowchart of the Decent Dot Notes process:
 
 #### Contract Address
 
-The contract is deployed on the Ethereum network. Please replace `0xYourContractAddressHere` with the actual address after deployment.
-
 - **Network:**
 - **Contract Address:** 0xfB36A7BA9A266e16c4c6EC312FD8739D221793c6
  
@@ -46,7 +44,7 @@ For further information or support, please reach out to:
 
 - **Name:** Ramanuz Kashyap
 - **Email:** ramanuzkashyap4@gmail.com
-- **Twitter:** (https://x.com/_RAMicle_)
+- **Twitter:** https://x.com/_RAMicle_
 
 Feel free to contact me for any inquiries or collaboration opportunities related to Decent Dot Notes.
 
