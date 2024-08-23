@@ -1,6 +1,7 @@
 # Decent Dot Notes
 
-## Vision
+## Vision ![image](https://github.com/user-attachments/assets/406d06dd-15f8-4de4-a866-f1daabe3d3f2)
+
 
 Decent Dot Notes aims to create a secure, transparent, and efficient platform for students to upload, share, and access handwritten notes. By leveraging the Ethereum blockchain and IPFS (InterPlanetary File System), this project ensures that notes are stored in a decentralized manner, minimizing reliance on central servers and maximizing availability.
 
@@ -44,7 +45,7 @@ For further information or support, please reach out to:
 
 - **Name:** Ramanuz Kashyap
 - **Email:** ramanuzkashyap4@gmail.com
-- **Twitter:** https://x.com/_RAMicle_
+- **Twitter:** (https://x.com/_RAMicle_)
 
 Feel free to contact me for any inquiries or collaboration opportunities related to Decent Dot Notes.
 
