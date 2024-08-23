@@ -2,16 +2,19 @@
 
 # Decent Dot Notes
 
-## Vision
+
+### Vision
 
 Decent Dot Notes aims to create a secure, transparent, and efficient platform for students to upload, share, and access handwritten notes. By leveraging the EduChain blockchain and IPFS (InterPlanetary File System), this project ensures that notes are stored in a decentralized manner, minimizing reliance on central servers and maximizing availability.
 
-## Features
+
+### Features
 
 - **Upload Notes:** Students can upload their notes by providing a unique topic ID, a subject title, and an IPFS hash where the note is stored.
 - **Retrieve Notes:** Users can retrieve notes by entering the topic ID, which returns the note details including the subject title, IPFS hash, uploader’s address, and upload timestamp.
 
-## Flowchart
+
+### Flowchart
 
 1. **Start**
 
@@ -42,7 +45,7 @@ Decent Dot Notes aims to create a secure, transparent, and efficient platform fo
 ---
 
 4. **End**
-   
+
 
 #### Contract Address
 
