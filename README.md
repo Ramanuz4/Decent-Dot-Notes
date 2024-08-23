@@ -1,7 +1,8 @@
+![image](https://github.com/user-attachments/assets/6059020c-8fe0-4be3-85cf-77ced4fea41f)
+
 # Decent Dot Notes
 
-## Vision ![image](https://github.com/user-attachments/assets/406d06dd-15f8-4de4-a866-f1daabe3d3f2)
-
+## Vision
 
 Decent Dot Notes aims to create a secure, transparent, and efficient platform for students to upload, share, and access handwritten notes. By leveraging the Ethereum blockchain and IPFS (InterPlanetary File System), this project ensures that notes are stored in a decentralized manner, minimizing reliance on central servers and maximizing availability.
 
@@ -12,25 +13,44 @@ Decent Dot Notes aims to create a secure, transparent, and efficient platform fo
 
 ## Flowchart
 
-Below is a simple flowchart of the Decent Dot Notes process:
+1. **Start**
 
-1. **Upload Note:**
-   - Student provides title, topic ID, and IPFS hash.
-   - Contract verifies if the topic ID is unique.
-   - Note is stored in the blockchain.
-   - Upload event is emitted.
+---
 
-2. **Retrieve Note:**
-   - User provides topic ID.
-   - Contract checks if the topic ID exists.
-   - Note details are retrieved and returned.
+2. **Upload Note Process:**
+   1. **Input:** User provides `title`, `topic`, and `IPFS hash`.
+   2. **Condition:** Check if the `topic` ID already exists.
+      1. **Yes:** Display error "Note with this topic ID already exists."
+      2. **No:** Proceed to the next step.
+   3. **Action:**
+      1. Store the `Note` in `notesByTopic` mapping.
+      2. Emit `NoteUploaded` event with details (`topic`, `title`, `IPFS hash`, `uploader`, `timestamp`).
+   4. **End of Upload Process**
 
-![Flowchart](https://via.placeholder.com/400x300?text=Flowchart+Placeholder)
+---
+
+3. **Retrieve Note Process:**
+   1. **Input:** User provides `topic`.
+   2. **Condition:** Check if the `topic` ID exists.
+      1. **No:** Display error "Note with this topic ID does not exist."
+      2. **Yes:** Proceed to the next step.
+   3. **Action:**
+      1. Retrieve the `Note` from the `notesByTopic` mapping.
+      2. Return the `Note` details (`title`, `IPFS hash`, `uploader`, `timestamp`).
+   4. **End of Retrieve Process**
+
+---
+
+4. **End**
+   
 
 #### Contract Address
 
 - **Network:**
 - **Contract Address:** 0xfB36A7BA9A266e16c4c6EC312FD8739D221793c6
+
+![image](https://github.com/user-attachments/assets/20f37c81-56c7-426f-83a7-7530e2e75451)
+
  
 ## Future Scope
 
