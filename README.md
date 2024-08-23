@@ -54,13 +54,14 @@ Decent Dot Notes aims to create a secure, transparent, and efficient platform fo
 
 ![image](https://github.com/user-attachments/assets/20f37c81-56c7-426f-83a7-7530e2e75451)
 
- 
+
 ## Future Scope
 
 1. **Access Control:** Implement role-based access control to restrict note uploads and access based on user roles.
 2. **Advanced Search:** Develop a more sophisticated search mechanism to filter notes by multiple criteria.
 3. **Monetization:** Introduce features for monetizing notes, such as paid access or premium note subscriptions.
 4. **Integration:** Explore integrations with educational platforms and other decentralized applications (dApps) for enhanced functionality.
+
 
 ## Contact Details
 
@@ -69,6 +70,7 @@ For further information or support, please reach out to:
 - **Name:** Ramanuz Kashyap
 - **Email:** ramanuzkashyap4@gmail.com
 - **Twitter:** (https://x.com/_RAMicle_)
+
 
 Feel free to contact me for any inquiries or collaboration opportunities related to Decent Dot Notes.
 
